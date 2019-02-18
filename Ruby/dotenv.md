@@ -61,3 +61,6 @@ Et puis c'est tout ! Les variables sont appelées pendant le `before_configurati
 
 - [Un super répo](https://github.com/codeunion/dotenv-example) d'une personne qui explique comment lancer son dotenv
 - [La gem dotenv](https://github.com/bkeepers/dotenv)
+
+⚠️ ALERTE ERREUR COMMUNE
+Utiliser la gem Dotenv pour le développement et les config vars d'Heroku pour la production c'est bien ! Cependant pensez bien à mettre votre .env dans le .gitignore, afin d'éviter de recevoir une facture de 20.000€ parce qu'un pirate russe vous a piqué vos clés.
