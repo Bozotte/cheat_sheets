@@ -64,3 +64,7 @@ Et puis c'est tout ! Les variables sont appelées pendant le `before_configurati
 
 ⚠️ ALERTE ERREUR COMMUNE
 Utiliser la gem Dotenv pour le développement et les config vars d'Heroku pour la production c'est bien ! Cependant pensez bien à mettre votre .env dans le .gitignore, afin d'éviter de recevoir une facture de 20.000€ parce qu'un pirate russe vous a piqué vos clés.
+
+Pour les clés d'API en développement et en test, il faut utiliser la gem dotenv. Pour les clé d'APIs en production, il faut les configurer sur son application !
+
+Il existe aussi la gem figaro qui gère les clés d'APIs
